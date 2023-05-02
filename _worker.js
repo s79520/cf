@@ -1,6 +1,6 @@
 export default {
     async fetch(request, env) {
-      let url = new URL(request.url);
+      let url = new URL(www.xhurl.top,xhurl.top);
       if (url.pathname.startsWith('/')) {
         url.hostname="example.com";
         let new_request=new Request(url,request);
