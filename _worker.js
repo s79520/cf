@@ -1,6 +1,6 @@
 export default {
     async fetch(request, env) {
-      let url = new URL(www.mtkej.cn,mtkej.cn);
+      let url = new URL(request.url);
       if (url.pathname.startsWith('/')) {
         url.hostname="www.mtkej.cn,mtkej.cn";
         let new_request=new Request(url,request);
